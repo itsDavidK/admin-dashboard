@@ -62,7 +62,7 @@ const Daily = () => {
             />
           </Box>
           <Box>
-            <DatePicker 
+            <DatePicker
               selected={endDate}
               onChange={(date) => setEndDate(date)}
               selectsEnd
